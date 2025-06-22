@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/workspace/creations/C++/test/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\main5.dir\\src\\test.c.obj -c D:\\workspace\\creations\\C++\\test\\src\\test.c",
+  "file": "D:/workspace/creations/C++/test/src/test.c",
+  "output": "CMakeFiles/main5.dir/src/test.c.obj"
+},
+{
+  "directory": "D:/workspace/creations/C++/test/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\main5.dir\\src\\util\\aur_util\\aur_util.c.obj -c D:\\workspace\\creations\\C++\\test\\src\\util\\aur_util\\aur_util.c",
+  "file": "D:/workspace/creations/C++/test/src/util/aur_util/aur_util.c",
+  "output": "CMakeFiles/main5.dir/src/util/aur_util/aur_util.c.obj"
+},
+{
+  "directory": "D:/workspace/creations/C++/test/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\main5.dir\\src\\util\\sds\\sds.c.obj -c D:\\workspace\\creations\\C++\\test\\src\\util\\sds\\sds.c",
+  "file": "D:/workspace/creations/C++/test/src/util/sds/sds.c",
+  "output": "CMakeFiles/main5.dir/src/util/sds/sds.c.obj"
+}
+]
