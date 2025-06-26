@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "stdio.h": "c",
+    "windows.h": "c",
+    "winsock2.h": "c",
+    "_bsd_types.h": "c",
+    "inaddr.h": "c",
+    "bluetoothapis.h": "c"
+  }
+}

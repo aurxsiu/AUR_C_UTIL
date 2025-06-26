@@ -21,3 +21,10 @@ aux_source_directory(src/util/sds SDS_UTIL)
 
 # 生成的文件和编码文件
 add_executable(main5 ${SRC} ${AUR_UTIL} ${HASH_UTIL} ${SDS_UTIL})
+
+# socket通信
+# target_link_libraries(main5 ws2_32)
+
+# bluetooth errorHandle
+target_link_libraries(main5 Bthprops Kernel32)
+
