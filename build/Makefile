@@ -123,24 +123,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main5
+# Target rules for targets named main
 
 # Build rule for target.
-main5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main5
-.PHONY : main5
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-main5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/build
-.PHONY : main5/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 src/test.obj: src/test.c.obj
 .PHONY : src/test.obj
 
 # target to build an object file
 src/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/test.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/test.c.obj
 .PHONY : src/test.c.obj
 
 src/test.i: src/test.c.i
@@ -148,7 +148,7 @@ src/test.i: src/test.c.i
 
 # target to preprocess a source file
 src/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/test.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/test.c.i
 .PHONY : src/test.c.i
 
 src/test.s: src/test.c.s
@@ -156,7 +156,7 @@ src/test.s: src/test.c.s
 
 # target to generate assembly for a file
 src/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/test.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/test.c.s
 .PHONY : src/test.c.s
 
 src/util/aur_util/aur_util.obj: src/util/aur_util/aur_util.c.obj
@@ -164,7 +164,7 @@ src/util/aur_util/aur_util.obj: src/util/aur_util/aur_util.c.obj
 
 # target to build an object file
 src/util/aur_util/aur_util.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/aur_util/aur_util.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/aur_util/aur_util.c.obj
 .PHONY : src/util/aur_util/aur_util.c.obj
 
 src/util/aur_util/aur_util.i: src/util/aur_util/aur_util.c.i
@@ -172,7 +172,7 @@ src/util/aur_util/aur_util.i: src/util/aur_util/aur_util.c.i
 
 # target to preprocess a source file
 src/util/aur_util/aur_util.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/aur_util/aur_util.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/aur_util/aur_util.c.i
 .PHONY : src/util/aur_util/aur_util.c.i
 
 src/util/aur_util/aur_util.s: src/util/aur_util/aur_util.c.s
@@ -180,7 +180,7 @@ src/util/aur_util/aur_util.s: src/util/aur_util/aur_util.c.s
 
 # target to generate assembly for a file
 src/util/aur_util/aur_util.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/aur_util/aur_util.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/aur_util/aur_util.c.s
 .PHONY : src/util/aur_util/aur_util.c.s
 
 src/util/sds/sds.obj: src/util/sds/sds.c.obj
@@ -188,7 +188,7 @@ src/util/sds/sds.obj: src/util/sds/sds.c.obj
 
 # target to build an object file
 src/util/sds/sds.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/sds/sds.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/sds/sds.c.obj
 .PHONY : src/util/sds/sds.c.obj
 
 src/util/sds/sds.i: src/util/sds/sds.c.i
@@ -196,7 +196,7 @@ src/util/sds/sds.i: src/util/sds/sds.c.i
 
 # target to preprocess a source file
 src/util/sds/sds.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/sds/sds.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/sds/sds.c.i
 .PHONY : src/util/sds/sds.c.i
 
 src/util/sds/sds.s: src/util/sds/sds.c.s
@@ -204,7 +204,7 @@ src/util/sds/sds.s: src/util/sds/sds.c.s
 
 # target to generate assembly for a file
 src/util/sds/sds.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main5.dir\build.make CMakeFiles/main5.dir/src/util/sds/sds.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/util/sds/sds.c.s
 .PHONY : src/util/sds/sds.c.s
 
 # Help Target
@@ -216,7 +216,7 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main5
+	@echo ... main
 	@echo ... src/test.obj
 	@echo ... src/test.i
 	@echo ... src/test.s
